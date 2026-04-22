@@ -8,7 +8,7 @@ local Plr = Players.LocalPlayer
 
 if Settings.Translator == true then
     pcall(function()
-        _G.RedzTranslator = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/newredz/refs/heads/main/NewTranslator/NewBloxFruits/NewPortuguese.json"))
+        _G.Ll73oETranslator = HttpService:JSONDecode(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/newredz/refs/heads/main/NewTranslator/NewBloxFruits/NewPortuguese.json"))
     end)
 end
 
@@ -3738,7 +3738,7 @@ function CheckItemBPCRBPCR(v463)
 end
 local vu32 = loadstring(game:HttpGet("https://raw.githubusercontent.com/PlockScripts/Library-ui/refs/heads/main/redz-V5-remake/main.luau"))()
 local v466 = vu32:MakeWindow({
-    Title ="cuduc hub",
+    Title = "cuduc hub",
     SubTitle = "blox fruit",
     SaveFolder = "Redz | redz lib v5.lua"
 })
@@ -3764,7 +3764,8 @@ local v496 = v466:MakeTab({"Misc", "settings"})
 v484:AddDiscordInvite({
     Name = "DesplockHub | Community",
     Description = "Join server to receive Update",
-  
+    Logo = "rbxassetid://131723242350068",
+    Invite = "https://discord.gg/BnEDf68jwx"
 })
 _G.SelectWeapon = "Melee"
 task.spawn(function()
@@ -6633,7 +6634,7 @@ if World3 then
                                     if not l_Character_7:FindFirstChild("Tushita") and not l_Backpack_1:FindFirstChild("Tushita") then
                                         if not v798 then
                                             game.StarterGui:SetCore("SendNotification", {
-                                                Title = "Tu   n Anh IOS",
+                                                Title = "cuduc hub",
                                                 Text = "Use! - Yama or Tushita",
                                                 con = "rbxassetid://131185267344742",
                                                 Duration = 10
